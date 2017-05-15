@@ -1,5 +1,4 @@
-from . import my_importer
-import test_lib
+from my_importer import RemoteImporter
+import hadoop_mesos
 
-res = fib(5)
 print(res)
